@@ -1,3 +1,16 @@
 env**
 .data**
+data
+
+#pretrained models and weights
+.pretrained
+
+#output of experiments
 .experiments**
+
+#package
+codeml.egg-info**
+
+#pytest cache
+.pytest**
+**pycache**
