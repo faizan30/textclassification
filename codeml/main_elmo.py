@@ -19,7 +19,7 @@ from allennlp.modules.text_field_embedders import BasicTextFieldEmbedder
 from allennlp.modules.token_embedders import ElmoTokenEmbedder
 from allennlp.training.trainer import Trainer
 
-from codeml.models import BasicClassifier, SequenceClassifier
+from codeml.models import BasicClassifier
 
 EMBEDDING_DIM = 128
 HIDDEN_DIM = 128
